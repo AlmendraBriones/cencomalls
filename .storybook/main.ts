@@ -1,5 +1,6 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 
+
 const config: StorybookConfig = {
   
   "stories": [
@@ -14,6 +15,9 @@ const config: StorybookConfig = {
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}
-  }
+  },
+  viteFinal: (config) => {
+    return config;  // si necesitas config extra para Tailwind
+  },
 };
 export default config;
