@@ -1,0 +1,22 @@
+@theme{
+    --font-family-sans: 'Poppins', sans-serif;
+
+    --color-primary-50: #e7e8f2;
+    --color-primary-100: #c4c4e0;
+    --color-primary-200: #9e9fca;
+    --color-primary-300: #797ab5;
+    --color-primary-400: #5f5da5;
+    --color-primary-500: #474296;
+    --color-primary-600: #413a8d;
+    --color-primary-700: #393182;
+    --color-primary-800: #322776;
+    --color-primary-900: #251660;
+
+    --color-accent-50: #e2f6ff;
+    --color-accent-100: #cdf0ff;
+    --color-accent-200: #b4e8ff;
+    --color-accent-300: #83d9ff;
+    --color-accent-400: #50c9ff;
+    --color-accent-500: #29bdff;
+    --color-accent-600: #00b1ff;
+}

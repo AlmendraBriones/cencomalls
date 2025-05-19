@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@layer theme;
+
+@import "./theme.css" layer(theme);
+html, body{
+    font-family: var(--font-family-sans);
+}
+
